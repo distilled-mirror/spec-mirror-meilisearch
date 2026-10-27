@@ -232,7 +232,7 @@
 - [Search for facet values](https://www.meilisearch.com/docs/reference/api/facet-search/search-for-facet-values.md): Search for facet values matching a query within a given facet attribute. Use this to build autocomplete or dropdown UIs for facet filters.
 - [Get similar documents with POST](https://www.meilisearch.com/docs/reference/api/similar-documents/get-similar-documents-with-post.md): Retrieve documents similar to a reference document identified by its id.
 - [Get similar documents with GET](https://www.meilisearch.com/docs/reference/api/similar-documents/get-similar-documents-with-get.md): Retrieve documents similar to a reference document identified by its id.
-- [Model context protocol (MCP)](https://www.meilisearch.com/docs/reference/api/mcp-connection/model-context-protocol-mcp.md): The `/mcp` route exposes [the MCP open protocol](https://modelcontextprotocol.io) that enables seamless integration between LLM applications and external data sources and tools.
+- [Model context protocol (MCP)](https://www.meilisearch.com/docs/reference/api/mcp/model-context-protocol-mcp.md): The `/mcp` route exposes an [MCP server](https://www.meilisearch.com/docs/getting_started/integrations/mcp) for LLM applications to search Meilisearch.
 - [List chat workspaces](https://www.meilisearch.com/docs/reference/api/chats/list-chat-workspaces.md): List all chat workspaces registered on the instance, with pagination.
 - [Get a chat workspace](https://www.meilisearch.com/docs/reference/api/chats/get-a-chat-workspace.md): Get the details of a chat workspace by its unique identifier.
 - [Delete a chat workspace](https://www.meilisearch.com/docs/reference/api/chats/delete-a-chat-workspace.md): Delete a chat workspace and its settings by its unique identifier.
@@ -263,76 +263,76 @@
 - [Update all settings](https://www.meilisearch.com/docs/reference/api/settings/update-all-settings.md): Updates one or more settings for the index. Only the fields sent in the body are changed. Pass null for a setting to reset it to its default. If the index does not exist, it is created.
 - [Reset all settings](https://www.meilisearch.com/docs/reference/api/settings/reset-all-settings.md): Resets all settings of the index to their default values.
 - [Get chat](https://www.meilisearch.com/docs/reference/api/settings/get-chat.md): Returns the current value of the `chat` setting for the index.
-- [Update chat](https://www.meilisearch.com/docs/reference/api/settings/update-chat.md): Updates the `chat` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update chat](https://www.meilisearch.com/docs/reference/api/settings/update-chat.md): Updates the `chat` setting for the index.
 - [Reset chat](https://www.meilisearch.com/docs/reference/api/settings/reset-chat.md): Resets the `chat` setting to its default value.
 - [Get dictionary](https://www.meilisearch.com/docs/reference/api/settings/get-dictionary.md): Returns the current value of the `dictionary` setting for the index.
-- [Update dictionary](https://www.meilisearch.com/docs/reference/api/settings/update-dictionary.md): Updates the `dictionary` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update dictionary](https://www.meilisearch.com/docs/reference/api/settings/update-dictionary.md): Updates the `dictionary` setting for the index.
 - [Reset dictionary](https://www.meilisearch.com/docs/reference/api/settings/reset-dictionary.md): Resets the `dictionary` setting to its default value.
 - [Get displayedAttributes](https://www.meilisearch.com/docs/reference/api/settings/get-displayedattributes.md): Returns the current value of the `displayedAttributes` setting for the index.
-- [Update displayedAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-displayedattributes.md): Updates the `displayedAttributes` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update displayedAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-displayedattributes.md): Updates the `displayedAttributes` setting for the index.
 - [Reset displayedAttributes](https://www.meilisearch.com/docs/reference/api/settings/reset-displayedattributes.md): Resets the `displayedAttributes` setting to its default value.
 - [Get distinctAttribute](https://www.meilisearch.com/docs/reference/api/settings/get-distinctattribute.md): Returns the current value of the `distinctAttribute` setting for the index.
-- [Update distinctAttribute](https://www.meilisearch.com/docs/reference/api/settings/update-distinctattribute.md): Updates the `distinctAttribute` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update distinctAttribute](https://www.meilisearch.com/docs/reference/api/settings/update-distinctattribute.md): Updates the `distinctAttribute` setting for the index.
 - [Reset distinctAttribute](https://www.meilisearch.com/docs/reference/api/settings/reset-distinctattribute.md): Resets the `distinctAttribute` setting to its default value.
 - [Get embedders](https://www.meilisearch.com/docs/reference/api/settings/get-embedders.md): Returns the current value of the `embedders` setting for the index.
-- [Update embedders](https://www.meilisearch.com/docs/reference/api/settings/update-embedders.md): Updates the `embedders` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update embedders](https://www.meilisearch.com/docs/reference/api/settings/update-embedders.md): Updates the `embedders` setting for the index.
 - [Reset embedders](https://www.meilisearch.com/docs/reference/api/settings/reset-embedders.md): Resets the `embedders` setting to its default value.
 - [Get facetSearch](https://www.meilisearch.com/docs/reference/api/settings/get-facetsearch.md): Returns the current value of the `facetSearch` setting for the index.
-- [Update facetSearch](https://www.meilisearch.com/docs/reference/api/settings/update-facetsearch.md): Updates the `facetSearch` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update facetSearch](https://www.meilisearch.com/docs/reference/api/settings/update-facetsearch.md): Updates the `facetSearch` setting for the index.
 - [Reset facetSearch](https://www.meilisearch.com/docs/reference/api/settings/reset-facetsearch.md): Resets the `facetSearch` setting to its default value.
 - [Get faceting](https://www.meilisearch.com/docs/reference/api/settings/get-faceting.md): Returns the current value of the `faceting` setting for the index.
-- [Update faceting](https://www.meilisearch.com/docs/reference/api/settings/update-faceting.md): Updates the `faceting` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update faceting](https://www.meilisearch.com/docs/reference/api/settings/update-faceting.md): Updates the `faceting` setting for the index.
 - [Reset faceting](https://www.meilisearch.com/docs/reference/api/settings/reset-faceting.md): Resets the `faceting` setting to its default value.
 - [Get filterableAttributes](https://www.meilisearch.com/docs/reference/api/settings/get-filterableattributes.md): Returns the current value of the `filterableAttributes` setting for the index.
-- [Update filterableAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-filterableattributes.md): Updates the `filterableAttributes` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update filterableAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-filterableattributes.md): Updates the `filterableAttributes` setting for the index.
 - [Reset filterableAttributes](https://www.meilisearch.com/docs/reference/api/settings/reset-filterableattributes.md): Resets the `filterableAttributes` setting to its default value.
 - [Get foreignKeys](https://www.meilisearch.com/docs/reference/api/settings/get-foreignkeys.md): Returns the current value of the `foreignKeys` setting for the index.
-- [Update foreignKeys](https://www.meilisearch.com/docs/reference/api/settings/update-foreignkeys.md): Updates the `foreignKeys` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update foreignKeys](https://www.meilisearch.com/docs/reference/api/settings/update-foreignkeys.md): Updates the `foreignKeys` setting for the index.
 - [Reset foreignKeys](https://www.meilisearch.com/docs/reference/api/settings/reset-foreignkeys.md): Resets the `foreignKeys` setting to its default value.
 - [Get localizedAttributes](https://www.meilisearch.com/docs/reference/api/settings/get-localizedattributes.md): Returns the current value of the `localizedAttributes` setting for the index.
-- [Update localizedAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-localizedattributes.md): Updates the `localizedAttributes` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update localizedAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-localizedattributes.md): Updates the `localizedAttributes` setting for the index.
 - [Reset localizedAttributes](https://www.meilisearch.com/docs/reference/api/settings/reset-localizedattributes.md): Resets the `localizedAttributes` setting to its default value.
 - [Get nonSeparatorTokens](https://www.meilisearch.com/docs/reference/api/settings/get-nonseparatortokens.md): Returns the current value of the `nonSeparatorTokens` setting for the index.
-- [Update nonSeparatorTokens](https://www.meilisearch.com/docs/reference/api/settings/update-nonseparatortokens.md): Updates the `nonSeparatorTokens` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update nonSeparatorTokens](https://www.meilisearch.com/docs/reference/api/settings/update-nonseparatortokens.md): Updates the `nonSeparatorTokens` setting for the index.
 - [Reset nonSeparatorTokens](https://www.meilisearch.com/docs/reference/api/settings/reset-nonseparatortokens.md): Resets the `nonSeparatorTokens` setting to its default value.
 - [Get pagination](https://www.meilisearch.com/docs/reference/api/settings/get-pagination.md): Returns the current value of the `pagination` setting for the index.
-- [Update pagination](https://www.meilisearch.com/docs/reference/api/settings/update-pagination.md): Updates the `pagination` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update pagination](https://www.meilisearch.com/docs/reference/api/settings/update-pagination.md): Updates the `pagination` setting for the index.
 - [Reset pagination](https://www.meilisearch.com/docs/reference/api/settings/reset-pagination.md): Resets the `pagination` setting to its default value.
 - [Get prefixSearch](https://www.meilisearch.com/docs/reference/api/settings/get-prefixsearch.md): Returns the current value of the `prefixSearch` setting for the index.
-- [Update prefixSearch](https://www.meilisearch.com/docs/reference/api/settings/update-prefixsearch.md): Updates the `prefixSearch` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update prefixSearch](https://www.meilisearch.com/docs/reference/api/settings/update-prefixsearch.md): Updates the `prefixSearch` setting for the index.
 - [Reset prefixSearch](https://www.meilisearch.com/docs/reference/api/settings/reset-prefixsearch.md): Resets the `prefixSearch` setting to its default value.
 - [Get proximityPrecision](https://www.meilisearch.com/docs/reference/api/settings/get-proximityprecision.md): Returns the current value of the `proximityPrecision` setting for the index.
-- [Update proximityPrecision](https://www.meilisearch.com/docs/reference/api/settings/update-proximityprecision.md): Updates the `proximityPrecision` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update proximityPrecision](https://www.meilisearch.com/docs/reference/api/settings/update-proximityprecision.md): Updates the `proximityPrecision` setting for the index.
 - [Reset proximityPrecision](https://www.meilisearch.com/docs/reference/api/settings/reset-proximityprecision.md): Resets the `proximityPrecision` setting to its default value.
 - [Get rankingRules](https://www.meilisearch.com/docs/reference/api/settings/get-rankingrules.md): Returns the current value of the `rankingRules` setting for the index.
-- [Update rankingRules](https://www.meilisearch.com/docs/reference/api/settings/update-rankingrules.md): Updates the `rankingRules` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update rankingRules](https://www.meilisearch.com/docs/reference/api/settings/update-rankingrules.md): Updates the `rankingRules` setting for the index.
 - [Reset rankingRules](https://www.meilisearch.com/docs/reference/api/settings/reset-rankingrules.md): Resets the `rankingRules` setting to its default value.
 - [Get searchCutoffMs](https://www.meilisearch.com/docs/reference/api/settings/get-searchcutoffms.md): Returns the current value of the `searchCutoffMs` setting for the index.
-- [Update searchCutoffMs](https://www.meilisearch.com/docs/reference/api/settings/update-searchcutoffms.md): Updates the `searchCutoffMs` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update searchCutoffMs](https://www.meilisearch.com/docs/reference/api/settings/update-searchcutoffms.md): Updates the `searchCutoffMs` setting for the index.
 - [Reset searchCutoffMs](https://www.meilisearch.com/docs/reference/api/settings/reset-searchcutoffms.md): Resets the `searchCutoffMs` setting to its default value.
 - [Get searchableAttributes](https://www.meilisearch.com/docs/reference/api/settings/get-searchableattributes.md): Returns the current value of the `searchableAttributes` setting for the index.
-- [Update searchableAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-searchableattributes.md): Updates the `searchableAttributes` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update searchableAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-searchableattributes.md): Updates the `searchableAttributes` setting for the index.
 - [Reset searchableAttributes](https://www.meilisearch.com/docs/reference/api/settings/reset-searchableattributes.md): Resets the `searchableAttributes` setting to its default value.
 - [Get separatorTokens](https://www.meilisearch.com/docs/reference/api/settings/get-separatortokens.md): Returns the current value of the `separatorTokens` setting for the index.
-- [Update separatorTokens](https://www.meilisearch.com/docs/reference/api/settings/update-separatortokens.md): Updates the `separatorTokens` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update separatorTokens](https://www.meilisearch.com/docs/reference/api/settings/update-separatortokens.md): Updates the `separatorTokens` setting for the index.
 - [Reset separatorTokens](https://www.meilisearch.com/docs/reference/api/settings/reset-separatortokens.md): Resets the `separatorTokens` setting to its default value.
 - [Get sortableAttributes](https://www.meilisearch.com/docs/reference/api/settings/get-sortableattributes.md): Returns the current value of the `sortableAttributes` setting for the index.
-- [Update sortableAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-sortableattributes.md): Updates the `sortableAttributes` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update sortableAttributes](https://www.meilisearch.com/docs/reference/api/settings/update-sortableattributes.md): Updates the `sortableAttributes` setting for the index.
 - [Reset sortableAttributes](https://www.meilisearch.com/docs/reference/api/settings/reset-sortableattributes.md): Resets the `sortableAttributes` setting to its default value.
 - [Get stopWords](https://www.meilisearch.com/docs/reference/api/settings/get-stopwords.md): Returns the current value of the `stopWords` setting for the index.
-- [Update stopWords](https://www.meilisearch.com/docs/reference/api/settings/update-stopwords.md): Updates the `stopWords` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update stopWords](https://www.meilisearch.com/docs/reference/api/settings/update-stopwords.md): Updates the `stopWords` setting for the index.
 - [Reset stopWords](https://www.meilisearch.com/docs/reference/api/settings/reset-stopwords.md): Resets the `stopWords` setting to its default value.
 - [Get synonyms](https://www.meilisearch.com/docs/reference/api/settings/get-synonyms.md): Returns the current value of the `synonyms` setting for the index.
-- [Update synonyms](https://www.meilisearch.com/docs/reference/api/settings/update-synonyms.md): Updates the `synonyms` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update synonyms](https://www.meilisearch.com/docs/reference/api/settings/update-synonyms.md): Updates the `synonyms` setting for the index.
 - [Reset synonyms](https://www.meilisearch.com/docs/reference/api/settings/reset-synonyms.md): Resets the `synonyms` setting to its default value.
 - [Get typoTolerance](https://www.meilisearch.com/docs/reference/api/settings/get-typotolerance.md): Returns the current value of the `typoTolerance` setting for the index.
-- [Update typoTolerance](https://www.meilisearch.com/docs/reference/api/settings/update-typotolerance.md): Updates the `typoTolerance` setting for the index. Send the new value in the request body; send null to reset to default.
+- [Update typoTolerance](https://www.meilisearch.com/docs/reference/api/settings/update-typotolerance.md): Updates the `typoTolerance` setting for the index.
 - [Reset typoTolerance](https://www.meilisearch.com/docs/reference/api/settings/reset-typotolerance.md): Resets the `typoTolerance` setting to its default value.
 - [Get stats of index](https://www.meilisearch.com/docs/reference/api/indexes/get-stats-of-index.md): Return statistics for a single index: document count, database size, indexing status, and field distribution.
 - [Get stats of all indexes](https://www.meilisearch.com/docs/reference/api/stats/get-stats-of-all-indexes.md): Return statistics for the Meilisearch instance and for each index. Includes database size, last update time, document counts, and indexing status per index.
 - [Get health](https://www.meilisearch.com/docs/reference/api/health/get-health.md): The health check endpoint enables you to periodically test the health of your Meilisearch instance. Returns a simple status indicating that the server is available.
 - [Get version](https://www.meilisearch.com/docs/reference/api/version/get-version.md): Return the current Meilisearch version, including the commit SHA and build date.
-- [Render template](https://www.meilisearch.com/docs/reference/api/template/render-template.md): Render a template, either fetched from the settings of an index (embedder document template, chat document template, indexing or search fragment) or provided inline, by injecting the given input (a document from an index, an inline document, or a search query).
+- [Render template](https://www.meilisearch.com/docs/reference/api/render-templates/render-template.md): Render a template, either fetched from the settings of an index (embedder document template, chat document template, indexing or search fragment) or provided inline, by injecting the given input (a document from an index, an inline document, or a search query).
 - [Create snapshot](https://www.meilisearch.com/docs/reference/api/backups/create-snapshot.md): Trigger a snapshot creation process. When complete, a snapshot file is written to the snapshot directory. The directory is created if it does not exist.
 - [Create dump](https://www.meilisearch.com/docs/reference/api/backups/create-dump.md): Trigger a dump creation process. When complete, a dump file is written to the [dump directory](https://www.meilisearch.com/docs/learn/self_hosted/configure_meilisearch_at_launch#dump-directory). The directory is created if it does not exist.
 - [Retrieve logs](https://www.meilisearch.com/docs/reference/api/logs/retrieve-logs.md): Stream logs over HTTP. The format of the logs depends on the configuration specified in the payload. The logs are sent as multi-part, and the stream never stops, so ensure your client can handle a long-lived connection. To stop receiving logs, call the `DELETE /logs/stream` route.
@@ -352,7 +352,7 @@
 - [Compact index](https://www.meilisearch.com/docs/reference/api/indexes/compact-index.md): Trigger a compaction process on the specified index.
 - [Compact task queue](https://www.meilisearch.com/docs/reference/api/async-task-management/compact-task-queue.md): Trigger a compaction process on the task queue database and return its size before and after compaction. A successful compaction requires restarting the instance before it can safely resume normal writes.
 - [Export to a remote Meilisearch](https://www.meilisearch.com/docs/reference/api/export/export-to-a-remote-meilisearch.md): Trigger an export that sends documents and settings from this instance to a remote Meilisearch server. Configure the remote URL and optional API key in the request body.
-- [Render template](https://www.meilisearch.com/docs/reference/api/template/render-template.md): Render a template, either fetched from the settings of an index (embedder document template, chat document template, indexing or search fragment) or provided inline, by injecting the given input (a document from an index, an inline document, or a search query).
+- [Render template](https://www.meilisearch.com/docs/reference/api/render-templates/render-template.md): Render a template, either fetched from the settings of an index (embedder document template, chat document template, indexing or search fragment) or provided inline, by injecting the given input (a document from an index, an inline document, or a search query).
 - [Errors](https://www.meilisearch.com/docs/reference/errors/overview.md): Consult this page for an overview of how Meilisearch reports and formats error objects.
 - [Error codes](https://www.meilisearch.com/docs/reference/errors/error_codes.md): Consult this page for an exhaustive list of errors you may encounter when using the Meilisearch API.
 - [Comparison to alternatives](https://www.meilisearch.com/docs/resources/comparisons/alternatives.md): Deciding on a search engine for your project is an important but difficult task. This article describes the differences between Meilisearch and other search engines.
