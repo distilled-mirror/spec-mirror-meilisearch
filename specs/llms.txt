@@ -182,6 +182,9 @@
 - [Getting started with teams](https://www.meilisearch.com/docs/capabilities/platform/teams/getting_started.md): Create a team, invite members, and assign roles in Meilisearch Cloud.
 - [Manage team roles](https://www.meilisearch.com/docs/capabilities/platform/teams/how_to/manage_team_roles.md): Assign and change team member roles to control permissions within your Meilisearch Cloud projects.
 - [Configure SSO](https://www.meilisearch.com/docs/capabilities/platform/teams/how_to/configure_sso_for_team.md): Set up Single Sign-On for Meilisearch Cloud to authenticate team members through your identity provider.
+- [Meilisearch Cloud security](https://www.meilisearch.com/docs/capabilities/platform/security/overview.md): Restrict network access to your Meilisearch Cloud project with an IP allowlist.
+- [Manage the IP allowlist](https://www.meilisearch.com/docs/capabilities/platform/security/manage_ip_allowlist.md): Enable the IP allowlist add-on, then add, remove, and clear CIDR entries to restrict access to your Meilisearch Cloud project.
+- [Disable the IP allowlist](https://www.meilisearch.com/docs/capabilities/platform/security/disable_ip_allowlist.md): Cancel the IP allowlist add-on, understand what happens to your existing rules, and reactivate it before the end of the billing cycle.
 - [Project management](https://www.meilisearch.com/docs/capabilities/platform/management/overview.md): Configure webhooks and manage experimental features for your Meilisearch Cloud projects.
 - [Webhooks](https://www.meilisearch.com/docs/capabilities/platform/management/webhooks.md): Configure HTTP webhooks to receive notifications when Meilisearch indexing tasks complete or fail.
 - [Experimental features](https://www.meilisearch.com/docs/capabilities/platform/management/experimental_features.md): Enable or disable experimental Meilisearch features from the Cloud project settings.
