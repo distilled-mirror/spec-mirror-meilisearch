@@ -10,6 +10,12 @@
 - [Glossary](https://www.meilisearch.com/docs/getting_started/glossary.md): Definitions of key Meilisearch concepts and search terminology including full-text search, semantic search, hybrid search, and more.
 - [Good practices](https://www.meilisearch.com/docs/getting_started/good_practices.md): Best practices for formatting documents, chunking content, batching requests, and optimizing indexing performance in Meilisearch.
 
+### Tools
+
+- [Meilisearch CLI quick start](https://www.meilisearch.com/docs/getting_started/cli.md): Get started with Meilisearch from your terminal using the meili command line tool in 5 minutes.
+- [Postman collection for Meilisearch](https://www.meilisearch.com/docs/getting_started/integrations/postman.md): Import Meilisearch's OpenAPI specification into Postman to test and debug the API with a ready-made collection.
+- [Meilisearch Importer](https://www.meilisearch.com/docs/getting_started/integrations/meilisearch_importer.md): Efficiently import large CSV, NDJSON, or JSON datasets into Meilisearch using the official CLI tool.
+
 ### Back-end SDKs
 
 - [JavaScript quick start](https://www.meilisearch.com/docs/getting_started/sdks/javascript.md): Get started with Meilisearch using the JavaScript SDK in 5 minutes.
@@ -44,8 +50,6 @@
 - [LangChain integration](https://www.meilisearch.com/docs/getting_started/integrations/langchain.md): Use Meilisearch as a LangChain vector store for semantic search with OpenAI embeddings.
 - [Firebase](https://www.meilisearch.com/docs/getting_started/integrations/firebase.md): Sync your Firestore documents to Meilisearch using the official Firebase extension.
 - [Integrate Meilisearch Cloud with Vercel](https://www.meilisearch.com/docs/getting_started/integrations/vercel.md): Link Meilisearch Cloud to a Vercel Project.
-- [Postman collection for Meilisearch](https://www.meilisearch.com/docs/getting_started/integrations/postman.md): Import Meilisearch's OpenAPI specification into Postman to test and debug the API with a ready-made collection.
-- [Meilisearch Importer](https://www.meilisearch.com/docs/getting_started/integrations/meilisearch_importer.md): Efficiently import large CSV, NDJSON, or JSON datasets into Meilisearch using the official CLI tool.
 
 #### Kestra
 
