@@ -64,8 +64,8 @@
 - [Connect RabbitMQ to Meilisearch with Kestra](https://www.meilisearch.com/docs/getting_started/integrations/kestra/rabbitmq.md): Real-time indexing of a RabbitMQ (AMQP) queue into Meilisearch with Kestra.
 - [Connect Shopify to Meilisearch with Kestra](https://www.meilisearch.com/docs/getting_started/integrations/kestra/shopify.md): Backfill and incrementally sync a Shopify product catalog into Meilisearch with Kestra.
 
-- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Documentation for Capabilities.
-- [Reference (150 pages)](https://www.meilisearch.com/docs/_llms/reference.txt): Documentation for Reference.
+- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Capabilities, Full-text search, Hybrid and semantic search, Geo search, Agentic search, Multi-search, Filtering, sorting, and faceting, Personalization, Analytics, Security and tenant tokens, Search rules, Platform, Indexing.
+- [Reference (150 pages)](https://www.meilisearch.com/docs/_llms/reference.txt): Overview, API Routes, Errors.
 
 ## Resources
 
@@ -83,7 +83,7 @@
 
 ### Migration
 
-- [Migrating to Meilisearch Cloud](https://www.meilisearch.com/docs/resources/migration/migrating_cloud.md): Meilisearch Cloud is the recommended way of using Meilisearch. This guide walks you through migrating Meilisearch from a self-hosted installation to Meilisearch Cloud.
+- [Migrating to Meilisearch Cloud](https://www.meilisearch.com/docs/resources/migration/migrating_cloud.md): Meilisearch Cloud is the recommended way of using Meilisearch. Move your self-hosted instance, local or in production, to Meilisearch Cloud in one CLI command with meili teleport, or with the export API.
 - [Update to the latest Meilisearch version](https://www.meilisearch.com/docs/resources/migration/updating.md): Learn how to migrate to the latest Meilisearch release.
 - [Migrating from Algolia to Meilisearch](https://www.meilisearch.com/docs/resources/migration/algolia_migration.md): This guide will take you step-by-step through the creation of a script to upload data indexed by Algolia to Meilisearch.
 - [Migrating from Elasticsearch to Meilisearch](https://www.meilisearch.com/docs/resources/migration/elasticsearch_migration.md): A step-by-step guide to exporting data from Elasticsearch and importing it into Meilisearch, with a comparison of settings, queries, and API methods.
@@ -282,8 +282,8 @@
 
 ## Indexes
 
-- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Documentation for Capabilities.
-- [Reference (150 pages)](https://www.meilisearch.com/docs/_llms/reference.txt): Documentation for Reference.
+- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Capabilities, Full-text search, Hybrid and semantic search, Geo search, Agentic search, Multi-search, Filtering, sorting, and faceting, Personalization, Analytics, Security and tenant tokens, Search rules, Platform, Indexing.
+- [Reference (150 pages)](https://www.meilisearch.com/docs/_llms/reference.txt): Overview, API Routes, Errors.
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
