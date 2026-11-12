@@ -64,7 +64,7 @@
 - [Connect RabbitMQ to Meilisearch with Kestra](https://www.meilisearch.com/docs/getting_started/integrations/kestra/rabbitmq.md): Real-time indexing of a RabbitMQ (AMQP) queue into Meilisearch with Kestra.
 - [Connect Shopify to Meilisearch with Kestra](https://www.meilisearch.com/docs/getting_started/integrations/kestra/shopify.md): Backfill and incrementally sync a Shopify product catalog into Meilisearch with Kestra.
 
-- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Capabilities, Full-text search, Hybrid and semantic search, Geo search, Agentic search, Multi-search, Filtering, sorting, and faceting, Personalization, Analytics, Security and tenant tokens, Search rules, Platform, Indexing.
+- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Capabilities, Full-text search, Hybrid and semantic search, Geo search, Agentic search, Multi-search, Filtering, sorting, and faceting, Personalization, Analytics, Security and tenant tokens, Search Rules, Platform, Indexing.
 - [Reference (150 pages)](https://www.meilisearch.com/docs/_llms/reference.txt): Overview, API Routes, Errors.
 
 ## Resources
@@ -282,7 +282,7 @@
 
 ## Indexes
 
-- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Capabilities, Full-text search, Hybrid and semantic search, Geo search, Agentic search, Multi-search, Filtering, sorting, and faceting, Personalization, Analytics, Security and tenant tokens, Search rules, Platform, Indexing.
+- [Capabilities (167 pages)](https://www.meilisearch.com/docs/_llms/capabilities.txt): Capabilities, Full-text search, Hybrid and semantic search, Geo search, Agentic search, Multi-search, Filtering, sorting, and faceting, Personalization, Analytics, Security and tenant tokens, Search Rules, Platform, Indexing.
 - [Reference (150 pages)](https://www.meilisearch.com/docs/_llms/reference.txt): Overview, API Routes, Errors.
 
 
