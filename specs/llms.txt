@@ -202,6 +202,7 @@
 ### Changelog
 
 - [Changelog](https://www.meilisearch.com/docs/changelog.md): New features and improvements in Meilisearch
+- [Meilisearch v1.57 release notes](https://www.meilisearch.com/docs/changelog/v1.57.md): Released November 16, 2026
 - [Meilisearch v1.56 release notes](https://www.meilisearch.com/docs/changelog/v1.56.md): Released October 26, 2026
 - [Meilisearch v1.55 release notes](https://www.meilisearch.com/docs/changelog/v1.55.md): Released October 12, 2026
 - [Meilisearch v1.54 release notes](https://www.meilisearch.com/docs/changelog/v1.54.md): Released September 21, 2026
